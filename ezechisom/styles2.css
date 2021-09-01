@@ -1,0 +1,74 @@
+table {
+    width: 400px;
+}
+
+th, caption {
+    text-align: center;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid white;
+    font-size: 20;
+    color: white;
+    column-span: collapse;
+    caption-side: top;
+    }
+
+    header {
+        color: white;
+    }
+    caption {
+        color: white;
+    }
+    
+    
+    table {
+columns:after collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+
+body {
+    background-image: url("images/stars.png.jpg");
+    background-size: cover;
+}
+div {
+    margin:auto;
+padding: 20px;
+width: 500px;
+
+font-size: 20px;
+color: white;
+}
+form {
+margin:auto;
+padding: 20px;
+width: 500px;
+background-color: rgb(14, 14, 100);
+font-size: 20px;
+color: white;
+font-family: sans-serif;
+opacity: 0.7;
+}
+
+
+input[type="text"]{
+    padding: 5px;
+    width: 80%;
+    font-size: 18px;
+}
+input[type="submit"]{
+    padding: 5px;
+    font-size: 20px;
+    width: 100px;
+}
+
+select{
+    padding: 5px;
+    font-size: 20px;
+    background-color:  rgb(14, 14, 100);
+}
