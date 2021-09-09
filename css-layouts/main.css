@@ -111,3 +111,15 @@
 .nav-link {
   text-decoration: none;
 }
+
+.misc p {
+  background-color: violet;
+}
+
+.misc>p {
+  background-color: teal;
+}
+
+.misc div p+p {
+  background-color: navy;
+}
