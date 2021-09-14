@@ -4,102 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table</title> 
+    <link rel="stylesheet" href="bootsrap/css">
+    <title>Register</title> 
     <link rel="stylesheet" href="styles2.css">
-    <h2>First Assignment</h2>
-</head>
-<body>
-    <caption>Numbers</caption>
-    <table>
-        <tr>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>10</td>
-        </tr>
-        <tr>
-            <td>11</td>
-            <td>12</td>
-            <td>13</td>
-            <td>14</td>
-            <td>15</td>
-        </tr>
-        <tr>
-            <td>16</td>
-            <td>17</td>
-            <td>18</td>
-            <td>19</td>
-            <td>20</td>
-        </tr>
-        <tr>
-            <td>21</td>
-            <td>22</td>
-            <td>23</td>
-            <td>24</td>
-            <td>25</td>
-        </tr>
-        <tr>
-            <td>26</td>
-            <td>27</td>
-            <td>28</td>
-            <td>29</td>
-            <td>30</td>
-        </tr>
-        <tr>
-            <td>31</td>
-            <td>32</td>
-            <td>33</td>
-            <td>34</td>
-            <td>35</td>
-        </tr>
-        <tr>
-            <td>36</td>
-            <td>37</td>
-            <td>38</td>
-            <td>39</td>
-            <td>40</td>
-        </tr>
-        <tr>
-            <td>41</td>
-            <td>42</td>
-            <td>43</td>
-            <td>44</td>
-            <td>45</td>
-        </tr>
-        <tr>
-            <td>46</td>
-            <td>47</td>
-            <td>48</td>
-            <td>49</td>
-            <td>50</td>
-        </tr>
-    </table>
+  
     
 <div>
     <h3>
         Resgister Here
     </h3>
 </div>
-    <form>
+    <form method="GET" action="login.html">
         <fieldset>
             <legend>Your basic info</legend>
 Surname: <br>
-<input type="text" name="Surname" placeholder="Enter Surname"> <br><br>
+<input type="text" name="Surname" placeholder="Enter Surname" > <br><br>
 First Name: <br>
 <input type="text" name="First name" placeholder="Enter First Name"> <br><br>
 Other Names: <br>
@@ -109,8 +28,8 @@ Email: <br>
 Gender: <br>
 <input type="radio" name="Gender">Male
 <input type="radio" name="Gender">Female
-<input type="radio" name="Gender">Others
-Phone: <br>
+<input type="radio" name="Gender">Others <br> <br>
+Phone: 
 <select>
     <option>+234</option>
     <option>+235</option>
@@ -142,5 +61,9 @@ Date of Birth: <br>
 <input type="submit" name="submit" value="submit">
 </fieldset>
     </form>
+    <P>
+        http://127.0.0.1:5500/table.html?Surname=eze&First+name=magnus&Other+names=chisom&mail=complexchisom%40gmail.com&Gender=on&mob_digits=8046860330&address=Plot+106%2C+Rd+b3+Carlton+Gate+Estate%2C+Chevron+Drive+Lekki+Lagos&month=January&days=1&Year=1986&submit=submit
+    </P>
 </body>
+<script>bootstrap.js</script>
 </html>
