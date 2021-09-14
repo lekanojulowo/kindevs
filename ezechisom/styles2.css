@@ -1,5 +1,6 @@
 table {
     width: 400px;
+    height: ;
 }
 
 th, caption {
@@ -36,6 +37,7 @@ body {
     background-image: url("images/stars.png.jpg");
     background-size: cover;
 }
+
 div {
     margin:auto;
 padding: 20px;

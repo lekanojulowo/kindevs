@@ -1,0 +1,29 @@
+.card {
+    text-align: center;
+margin: auto;
+height: 400px;
+width: 350px;
+border: 1px;
+background-color: rgb(20, 38, 139);
+color: white;
+}
+
+.title {
+    text-align: center;
+}
+.card input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: springgreen 2px solid;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+   
+    
+}
+h3{
+    padding-top: 40px;
+}
+hr{
+    width: 300px;
+}

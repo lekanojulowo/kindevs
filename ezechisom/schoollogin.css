@@ -1,0 +1,74 @@
+
+body{
+    background-color: rgb(5, 97, 92);
+}
+.navbar{
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 0.3rem;
+        font-size: 1.50rem;
+        text-decoration: none;
+        white-space: nowrap;
+        text-align: left;
+        font-family: sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.search-button {
+    text-align: center;
+height: 40px;
+}
+.sch {
+    float: right;
+}
+.button-input[type="text"][type="text"]{
+    height: 40px;
+    padding: 40%;
+}
+.search-form {
+    text-align: right;
+}
+.Student-Login {
+    background-color: rgb(182, 172, 83);
+    color: rgb(46, 26, 26);
+    text-align: center;
+    align-content: center;
+    padding: 30px;
+    height: 400px;
+    width: 350px;
+    margin: auto;
+ 
+}
+
+
+.Student-Login input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: rgb(31, 9, 49) 2px solid;
+    background: transparent;
+    outline: none;
+    height: 40px; 
+    color: white;
+}
+.navbar{
+    background-origin: padding-box;
+    background-color: rgb(182, 225, 226);
+    text-decoration: none;
+    
+}
