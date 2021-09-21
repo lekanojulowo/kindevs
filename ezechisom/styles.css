@@ -28,14 +28,14 @@ nav {
     text-decoration: floralwhite;
     align-self: center;
     background-color: rgb(4, 56, 30); font-size:xx-large; font-display: black;
-    font-color: black; border: rgb(54, 44, 116);
+    color: black; border: rgb(54, 44, 116);
 }
 body {
     font-family: 'Open Sans', sans-serif;
     
     background-color: rgb(99, 211, 35);
 }
-}
+
 nav{
     position: relative;
     margin: 270px auto 0;
@@ -66,40 +66,40 @@ nav .animation{
     background: #1abc9c;
     width: 100px;
     border-radius:8px;
-    transmition: all .5s ease 0s;
+    transition: all .5s ease 0s;
 }
 a:nth-child(1){
     width: 100px;
 }
-nav .start-home,a:nth-child(1):hover.animation
+nav.start-home,a:nth-child(1):hover.animation{
 width: 100px;
 left: 0px;
-
+}
 a:nth-child(2){
     width: 110px;
 }
-nav .start-About,a:nth-child(2):hover~.animation
+nav .start-About,a:nth-child(2):hover~.animation{
 width: 110px;
 left: 100px;
-
+}
 a:nth-child(3){
     width: 100px;
 }
-nav .start-Blog,a:nth-child(3):hover~.animation
+nav .start-Blog,a:nth-child(3):hover~.animation{
 width: 100px;
 left: 210px;
-
+}
 a:nth-child(4){
     width: 160px;
 }
-nav .start-Table,a:nth-child(4):hover~.animation
+nav.start-Table,a:nth-child(4):hover~.animation{
 width: 160px;
 left: 310px;
-
+}
 a:nth-child(5){
     width: 120px;
 }
-nav .start-Contact,a:nth-child(5):hover~.animation
+nav.start-Contact,a:nth-child(5):hover~.animation{
 width: 120px;
 left: 470px;
-
+}
