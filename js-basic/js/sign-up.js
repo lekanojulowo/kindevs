@@ -1,0 +1,1 @@
+document.write("Welcome to sign up page for sign-up.js")

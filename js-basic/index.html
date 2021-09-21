@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>JS Basic</title>
+</head>
+
+<body class="bg-primary">
+  <header>
+    <h1>JS Basic Class</h1>
+  </header>
+  <main>
+    <a href="code/sign-up.html">
+      <h2>Sign Up</h2>
+    </a>
+    <!-- sign up form for participants -->
+    <form method="GET" enctype="multipart/form-data" id="signUpForm">
+      <div>
+        <label for="fullName">Full Name *: </label><br>
+        <input type="text" id="fullName" name="fullName" value="" required>
+      </div><br>
+      <div>
+        <input type="submit" id="submitBtn" value="Sign Up">
+      </div>
+      <div><br>
+        <input type="reset" id="resetBtn" value="Reset Form">
+      </div>
+    </form>
+    <hr>
+    <!-- ol display of registered participants -->
+    <section>
+      <h4>OL - Registered Participants</h4>
+      <ol id="olDisplay">
+        <!-- <li>Ini Oguntuase</li> -->
+      </ol>
+    </section>
+    <hr>
+    <!-- Table display of registered participants -->
+    <section>
+      <h4>Table - Registered Participants</h4>
+      <table class="table-bordered">
+        <thead>
+          <tr>
+            <th>SN</th>
+            <th>Full Name</th>
+          </tr>
+        </thead>
+        <tbody id="tableDisplay">
+          <!-- <tr>
+            <td>1</td>
+            <td>Ini Oguntuase</td>
+          </tr> -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="js/index.js" defer></script>
+</body>
+
+</html>
