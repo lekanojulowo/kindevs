@@ -1,0 +1,10 @@
+@media screen and (min-width: 600px) {
+    h1 {
+        color: darkgreen;
+        background-color: aqua;
+
+        font-family: verdana,
+            sans-serif;
+        font-size: 12px;
+    }
+}

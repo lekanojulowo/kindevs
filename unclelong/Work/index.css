@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif, monospace;
+    background: indigo;
+    /* height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+
+label.Logo {
+    color: #fff;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    position: sticky;
+}
+
+a.active,
+a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.Logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}
+
+section {
+    background: url(Images/training-image-02.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+
+main div.polaroid {
+    background-color: #1b9bff;
+    box-shadow: 1px 4px 2px 3px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 60px;
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+div.polaroid:hover {
+    color: white !important;
+    cursor: pointer
+}
+
+div.container {
+    text-align: center;
+    padding-left: 20px;
+}
+
+.blue {
+    text-align: center;
+    padding: 30px;
+    margin-left: 40%;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background: indigo;
+    font-size: 1rem;
+}
+
+.blue:hover {
+    color: brown;
+    transition: all 0.5;
+    cursor: pointer;
+}
+
+.para {
+    color: white;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.btn2 {
+    color: #0082e6;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.btn {
+    color: red;
+    padding: 15px;
+    background: #1b9bff;
+    border-radius: 3px;
+}
+
+.datetime {
+    color: #fff;
+    /* background: #10101e; */
+    font-family: "Segoe UI", sans-serif;
+    width: 340px;
+    padding: 15px 10px;
+    /* border: 3px solid #2e94e3; */
+    border-radius: 5px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+    transition: .5s;
+    transition-property: background, box-shadow;
+}
+
+
+/* .datetime:hover {
+    background: #2e94e3;
+    box-shadow: 0 0 30px #2e94e3;
+} */
+
+.date {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.time {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time span:not(:last-child) {
+    position: relative;
+    margin: 0 6px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.time span:last-child {
+    /* background: #2e94e3; */
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+    color: black;
+}
+
+.copy {
+    border: none;
+    border-color: green;
+}

@@ -1,0 +1,27 @@
+@media screen and (min-width: 1024px) {
+    h1 {
+        color: coral;
+        background-color: red;
+        font-family: verdana,
+            sans-serif;
+        font-size: 14px;
+    }
+}
+
+.newspaper {
+    -webkit-column-count: 6;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 6;
+    /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 60px;
+    /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px;
+    /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule: 4px outset #ff0000;
+    /* Chrome, Safari, Opera */
+    -moz-column-rule: 4px outset #ff0000;
+    /* Firefox */
+    column-rule: 4px outset #ff0000;
+}

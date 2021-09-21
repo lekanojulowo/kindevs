@@ -1,0 +1,5 @@
+@media screen and (min-width: 1240px) {
+    h1 {
+        color: indigo;
+    }
+}

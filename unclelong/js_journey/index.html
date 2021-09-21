@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign_Up</title>
+    <link rel="" type="" href="css/demo.css">
+
+</head>
+
+<body class="bg-primary">
+
+    <header>
+        <h1>js_journey</h1>
+        <main>
+            <a href="../js_journey/Code/signup.html">
+                <h2>sign-up</h2>
+            </a>
+        </main>
+
+    </header>
+    <!-- Sign Up form for Participants -->
+
+
+    <form method="GET" enctype="multipart/form-data" id="signUpform">
+        <div>
+
+            <label for="fullname">FullName</label><br>
+            <input type="text" id="fullname" name="fullname" value="" required>
+        </div><br>
+        <div>
+
+            <input type="submit" name="" id="submitBtn" value="Sign Up"></div>
+        <div> <br>
+            <input type="reset" value="Reset Form" id="resetBtn">
+        </div> <br>
+    </form>
+
+
+    <hr>
+    <section>
+        <h1> Registered Participants</h1>
+        <ol id="olDisplay">
+            <!-- <li>Murewa Don</li> -->
+        </ol>
+    </section>
+    <hr>
+
+    <!-- Table display for Registered Participant -->
+
+    <section>
+        <h1> Registered Participants</h1>
+
+        <table class="table-bordered">
+            <thead>
+                <tr>
+                    <th>S/N</th>
+                    <th>FullName</th>
+                </tr>
+            </thead>
+
+            <tbody id="tableDisplay">
+                <!-- <tr>
+                    <td>1</td>
+                    <td>Murewa Don</td>
+                </tr> -->
+            </tbody>
+        </table>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="../js_journey/js/demo.js"></script>
+</body>
+
+</html>
