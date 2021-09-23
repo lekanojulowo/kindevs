@@ -22,12 +22,6 @@ function registerParticipant(event) {
 }
 
 
-
-
-
-
-
-
 // document.write("Hello World");
 // alert("Welcome to JS")
 // document.querySelector('.fullName')
